@@ -7,6 +7,64 @@ TSLA has given highest returns but comes with high risk as it is extremely volat
 AMZN has moderate volatilty and is robust.
 APPL is consistent and balanced while DIS lagged.
 
-2. Dailt Returns
+2. Daily Returns
+![Daily Returns](daily_returns.png)
+Conclusion:
+TSLA has the highest spikes while the other stocks have few large spikes which indicates a stable performance.
 
+3. Skewness
+![Skewness](skewness.png)
+Conclusion:
+All stocks have positive skewness meaning fewer smaller losses and occasional larger gains.
+AMZN has the highest positive skewness.
 
+4. Kurtosis
+![Kurtosis](kurtosis.png)
+Conclusion:
+All stocks have Kurtosis higher than 3, indicates more outliers or fat tails.
+DIS has very high kurtosis, should be handled with caution due to occational large movement.
+
+5. Histogram
+![Histogram](histogram.png)
+Conclusion:
+Most returns centered around 0, indicating small changes.
+TSLA’s distribution is wider, indicating more frequent larger moves.
+
+6. Standard Deviation
+![Standard Deviation](standard_deviation.png)
+Conclusion:
+TSLA has the highest volatility, meaning its prices swing a lot.
+DIS and AAPL are relatively stable.
+AMZN is slightly more volatile than AAPL and DIS but less than TSLA.
+
+7. Correlation
+![Correlation Matrix](correlation_matrix.png)
+Conclusion:
+AAPL & AMZN have the highest correlation (0.55), suggesting they tend to move similarly.
+TSLA & DIS have the lowest correlation (0.28), which might help in diversification.
+No pair is perfectly correlated (value of 1), so these stocks offer some diversification benefits.
+
+8. Rolling correlation - for AAPL and TSLA
+![Rolling Correlation](rolling_correlation.png) 
+Conclusion:
+The correlation fluctuates but stays between 0.2 and 0.6 for most of the time.
+It peaked near 0.65 in early 2023, meaning the two stocks behaved similarly at that point.
+A lower correlation is useful in portfolio diversification — these stocks are somewhat independent but not completely.
+
+9. Sharpe Ratio
+![Sharpe Ratio}(sharpe_ratio.png)
+Conclusion:
+AAPL and AMZN are close to or slightly under the threshold of 1, suggesting strong risk-adjusted returns.
+TSLA has a decent Sharpe Ratio, though slightly lower.
+DIS has a significantly lower Sharpe Ratio (~0.23), indicating it may not be providing good returns relative to its risk.
+
+CONCLUSION:
+This analysis highlights that AAPL and AMZN offer the best balance between returns and risk, 
+making them attractive from a risk-adjusted performance perspective. 
+TSLA provides high return potential but comes with high volatility. 
+DIS, on the other hand, shows the lowest Sharpe Ratio and highest kurtosis, 
+suggesting it may be less attractive for risk-conscious investors.
+When considering diversification, pairing stocks like TSLA and DIS or 
+AAPL and TSLA can reduce portfolio risk due to lower correlations. 
+However, the fat tails and high kurtosis observed in all stocks mean extreme events are possible, 
+so proper risk management is essential.
