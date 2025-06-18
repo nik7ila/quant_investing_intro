@@ -1,0 +1,12 @@
+Portfolio Analysis Report Summary (2015–2025)
+Stocks analyzed: Apple (AAPL), Tesla (TSLA), Disney (DIS), Amazon (AMZN)
+1. Cumulative Return Comparison
+![Cumulative Return Plot](cumulative_returns.png)
+Conclusion : 
+TSLA has given highest returns but comes with high risk as it is extremely volatile.
+AMZN has moderate volatilty and is robust.
+APPL is consistent and balanced while DIS lagged.
+
+2. Dailt Returns
+
+
